@@ -1,12 +1,6 @@
 import kotlin.math.max
 import kotlin.math.min
 
-class Position(var x: Int, var y: Int) {
-    override fun toString(): String {
-        return "X: $x, Y: $y"
-    }
-}
-
 class RockLine(val fromPoint: Position, val toPoint: Position)
 
 fun main() {
